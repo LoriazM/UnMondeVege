@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="../style_recettes.css" />
+        <title>Brioche moelleuse</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&ampdisplay=swap">
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <div id = "main_wrapper">
+            <header>
+                <h1><a href="../index.html">Un monde végé </a></h1>
+                <nav>
+                    <ul>
+                        <li> <a href="../apero/apero.html">Apéro !</a></li>
+                        <li> <a href="../les_entrees/les_entrees.html">Entrées</a></li>
+                        <li> <a href="../les_plats/les_plats.html">Plats</a></li>
+                        <li> <a href="../les_desserts/les_desserts.html">Desserts</a></li>
+                        <li> <a href="les_pates.html">Pâtes & Patisseries</a></li>
+                        <li> <a href="../les_sauces/les_sauces.html">Sauces</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section id="section_recette">
+                <article id="article_recette">
+                    <h2 class="h2_recette"> Brioche tressée à la mie moelleuse +++ </h2>
+                      <div class='bandeau'>
+                        <div id='regime'>
+                          <img id="image_vegan" src="../image/bandeau/vegan_nb.png" alt="vegan logo" height="60" width=auto >
+                          <img id="image_vege" src="../image/bandeau/vege.png" alt="vege logo" height="60" width=auto>
+                        </div>
+                        <div id='couverts'>
+                          <img id="image_couverts" src="../image/bandeau/couverts.png" alt="couverts logo" height="60" width=auto>
+                          <p> Pour 2 brioches</p>
+                        </div>
+                        <div id='chrono'>
+                          <img id="image_chrono" src="../image/bandeau/chrono.png" alt="chrono logo" height="60" width=auto>
+                          <p> Environ 3h30 </br>(dont 2h30 de chill et</br> 20min de cuisson !)</p>
+                        </div>
+                        <div id='calories'>
+                          <img id="image_calories" src="../image/bandeau/calories.png" alt="calories logo" height="60" width=auto>
+                          <p> 3 066 Kcal</p>
+                        </div>
+                      </div>
+                    <div id="recette">
+                    <div id="liste_ingredients">
+                        <h3 class="h3_recette">Les ingrédients </h3>
+                          <form method="post" class="ingredients">
+                            <p>Tu peux cocher au fur et à mesure pour pas être perdu.e ! :</p>
+                            <input type="checkbox" name="ingredients" id="farine" /> <label
+                            for="farine" id="id_farine">500 g de farine</label><br/>
+                            <input type="checkbox" name="ingredients" id="sucre" /> <label
+                            for="sucre" id="id_sucre">80 g de sucre en poudre</label><br />
+                            <input type="checkbox" name="ingredients" id="sel" />
+                            <label for="sel" id="id_sel">8 g de sel (un chouilla moins si tu utilises -et y'a interêt !- du beurre salé)</label><br />
+                            <input type="checkbox" name="ingredients" id="levure" /> <label
+                            for="levure" id="id_levure">25 g de levure fraîche ou 9g de levure seche de boulanger (perso j'en mets toujours un peu plus (genre 10-12g) pour être sûre que ça lève eheh)</label><br />
+                            <input type="checkbox" name="ingredients" id="oeufs" />
+                            <label for="oeufs" id="id_oeufs">2 oeufs</label><br />
+                            <input type="checkbox" name="ingredients" id="lait" />
+                            <label for="lait" id="id_lait">180 ml de lait entier à température ambiante</label><br />
+                            <input type="checkbox" name="ingredients" id="beurre" />
+                            <label for="beurre" id="id_beurre">100 g de beurre (salé ;) ) pommade</label><br />
+                          </form>
+                          <form method="post" class="ingredients">
+                            <p>Et pour la <em id="dorure">dorure</em> : </p>
+                            <input type="checkbox" name="ingredients" id="jaune_oeuf" /> <label
+                            for="jaune_oeuf" id="id_jaune_oeuf">1 jaune d'oeuf</label><br/>
+                            <input type="checkbox" name="ingredients" id="lait_dorure" /> <label
+                            for="lait_dorure" id="id_lait_dorure">2 cuillères à soupe de lait </label><br />
+                            <input type="checkbox" name="ingredients" id="sucre_grain" />
+                            <label for="sucre_grain" id="id_sucre_grain">Bonus: Sucre en grains ou perlé </label><br />
+                          </form>
+                        </div>
+                        <div id="liste_etapes">
+                          <h3 class="h3_recette">Let's do it ! </h3>
+                          <h4 class="h4_recette"> La preparation</h4>
+                          <ul class="preparation">
+                            <li> Placer les ingrédients dans un saladier (ou dans la cuve si tu fais avec un robot (tricheur.euse !)) en respectant bien l'ordre. On met d'abord la farine, puis le sucre d'un côté, et le sel de l'autre. </br>
+                            Former un puits au centre de la farine et émietter la levure à l'intérieur. L'astuce -d'après les croyances- c'est qu'il ne faut pas que la levure touche le sel car il la "tuerait" ("oui mais quand je mélange ça va se toucher nieh"... Pas faux)</li>
+                            <li> Placer ensuite les oeufs sur la levure. Ils vont la protéger du sel.</li>
+                            <li> Verser ensuite le lait sur le dessus.</li>
+                            <li> Mélanger et petrir un petit bout de temps le tout à la main (sah quel plaisir !) jusqu'à ce que la pâte soit belle et se décolle bien du saladier. Si tu es un.e tricheur.euse  pétrie le tout avec le crochet du robot pendant 5 à 10 minutes, sur puissance moyenne. La pâte doit se décoller des parois de la cuve.</li>
+                            <li> Ajouter le beurre en morceaux, petit à petit, sans cesser de pétrir. Il faudra environ 5 minutes pour incorporer tout le beurre (avec un robot) et surement plus à la main. Attention : le beurre soit être bien pommade sinon c'est galère galère à bien incorporer dans la pâte ! Puis on continue de pétrir jusqu'à ce que la pâte ne soit plus collante (il ne faut pas hésiter à ajuster avec un chouilla de farine pour avoir la consistance et texture désirée!)</li>
+                            <li> Laisser pousser 1h30 (MINIMUM) la pâte dans une ambiance chaude (prêt d'un chauffage par exemple ou après avoir chauffer le four au minimum et l'avoir éteind). Mais attention ! Il faut éviter de dépasser 29-30°C sinon la pâte en sueur... </br>La pâte doit doubler de volume </li>
+                            <li> Au bout d'1h30, placer la pâte sur un plan de travail fariné et diviser-la en 2. Réserver une moitié et étalez l'autre en rectangle. Couper-la en 3 pour avoir 3 longues bandes. </br> Former des boudins avec ces bandes. Placer la jointure des boudin côté plan de travail </li>
+                            <li> Coller les 3 extrémités entre elles et formez une tresse. Ne pas trop la serrez car la brioche va bien gonfler. </li>
+                            <li> Faire de même avec la seconde moitié de pâte. </li>
+                            <li> Laisser pousser 1 bonne heure, toujours au chaud. </li>
+                          </ul>
+                          <h4 class="h4_recette"> La couisson ! </h4>
+                          <ul class="preparation">
+                            <li> Préchauffer le four à 190°C. </li>
+                            <li> Mélanger ensemble un jaune d'oeuf et 2 cuillères à soupe de lait. Badigeonner ce mélange sur les brioches tressées avec un pinceau alimentaire. </li>
+                            <li> Enfourner 10 minutes. </li>
+                            <li> Sortir les brioches du four et dorez de nouveau. Tu peux Parsemer de quelques grains de sucre perlé si tu veux. ré-enfourner 10 minutes. </li>
+                          </ul>
+                        </div>
+                      </div>
+                </article>
+                <aside id="aside_pates">
+                </aside>
+            </section>
+          <footer> <p>Poulie Girod, <em id="footer">végée since September 2019</em></p></footer>
+
+        <script type="text/javascript" src = "../ingredients.js">
+        </script>
+    </body>
+</html>

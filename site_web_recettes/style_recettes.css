@@ -1,0 +1,253 @@
+/* -----  CODE CSS SITE RECETTES POUR LES RECETTES, Coline Girod, 25/11/2021    ----- */
+
+
+/*  PARAMETRES GENERAUX VALABLE POUR TOUTES LES PAGES */
+
+/*  design de base */
+body
+{
+	background-image: url("./image/bg_7.jpg") ;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#main_wrapper
+{
+	background-color: rgba(250,250,230,0.9);
+	width: 80%;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius: 5px/5px;
+  word-wrap: break-word;
+}
+
+
+
+/*  header avec nom site et nav */
+
+header
+{
+	display: flex;
+}
+
+nav ul
+{
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top : 25px;
+	justify-content: space-around;
+}
+
+nav li
+{
+	width: 130px;
+	height: 40px;
+	text-align: center;
+}
+
+nav li:nth-child(3)
+{
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+nav li:nth-child(5)
+{
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+nav a
+{
+	text-decoration: none;
+	font-size: 1.9em;
+  color: #181818;
+  padding-bottom: 3px;
+	font-weight: bold;
+	font-family: 'Amatic SC', cursive;
+}
+
+nav a:hover
+{
+	color: green;
+	font-size: 2.1em;
+	text-decoration: underline green;
+}
+
+
+/*  Footer */
+footer p
+{
+	color : rgb(86,101,115);
+	font-size: 0.93em;
+}
+
+h1
+{
+	margin-left: 5px;
+	font-family: 'Fleur de Leah', cursive;
+	font-size: 4.3em;
+}
+
+h1 a
+{
+	text-decoration: none;
+    color: #181818;
+}
+#footer
+{
+	font-style: italic;
+}
+
+/*  Paramètre valables pour la page home et d'autres */
+
+/* .bandeau{
+	background-color: #d3e1ee;
+	width: 95%;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius: 50px/50px;
+	word-wrap: break-word;
+	height: 120px;
+	border: 4px grey groove;
+	box-shadow: 10px 10px 30px;
+}*/
+
+.bandeau{
+	height:auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+#couverts, #chrono, #calories{
+	display: flex;
+	align-items: center;
+}
+#couverts p, #chrono p, #calories p{
+	font-size: 1.1em;
+}
+
+#couverts img, #chrono img, #calories img{
+}
+
+p, #liste_ingredients label, .preparation
+{
+	margin-left: 12px;
+	margin-right: 12px;
+	font-family: 'Source Sans Pro', sans-serif ;
+	font-weight:300;
+	font-size: 1.1em;
+  text-align: justify;
+}
+
+#liste_ingredients label{
+	text-align: left;
+}
+
+.preparation li{
+  margin-bottom: 16px;
+	margin-left: 6px;
+}
+
+
+.h3_recette
+{
+	margin-left: 10px;
+  font-size: 1.9em;
+  font-family: 'Amatic SC', cursive;
+}
+
+.h4_recette
+{
+  margin-left: 15px;
+	font-family: 'Libre Baskerville';
+	font-size: 1.1em;
+}
+
+#dorure{
+  	font-family: 'Fleur de Leah', cursive;
+    font-size: 1.2em;
+}
+
+#recette {
+  display: flex;
+	justify-content: space-between;
+}
+
+#liste_etapes{
+	flex:5;
+	margin-left: 15px;
+}
+
+#liste_ingredients{
+	flex:2;
+	margin-left: 15px;
+}
+
+.h2_recette
+{
+	margin-left: 15px;
+	font-family: 'Amatic SC', cursive;
+	font-size: 2.6em;
+	text-decoration: underline black;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px)
+{
+  nav ul, #section_home , #section_sauces, #section_pates, #section_entrees, #section_apero, #section_plats, #section_desserts
+	{
+		flex-direction: column;
+	}
+
+
+	h1
+	{
+		margin-left: 5px;
+		font-family: 'Fleur de Leah', cursive;
+		font-size: 4.7em;
+	}
+
+	header
+	{justify-content: space-between}
+
+	nav a
+	{
+		font-size: 2.5em;
+	}
+
+	nav li
+	{
+		width: 100%;
+	}
+
+		nav li:nth-child(5)
+	{
+		width: 250px;
+	}
+
+		nav a:hover
+	{
+		font-size: 2.6em;
+	}
+
+	.bandeau{
+		height:auto;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+
+	#recette{
+		flex-direction: column;
+		margin-left: 1px;
+		margin-right: 4px;
+	}
+}

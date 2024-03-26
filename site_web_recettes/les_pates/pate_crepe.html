@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="../style_recettes.css" />
+        <title>Pâte à crèpes</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&ampdisplay=swap">
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap" rel="stylesheet">
+        <link href="https://fonts.<googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <div id = "main_wrapper">
+            <header>
+                <h1><a href="../index.html">Un monde végé </a></h1>
+                <nav>
+                    <ul>
+                        <li> <a href="../apero/apero.html">Apéro !</a></li>
+                        <li> <a href="../les_entrees/les_entrees.html">Entrées</a></li>
+                        <li> <a href="../les_plats/les_plats.html">Plats</a></li>
+                        <li> <a href="../les_desserts/les_desserts.html">Desserts</a></li>
+                        <li> <a href="les_pates.html">Pâtes & Patisseries</a></li>
+                        <li> <a href="../les_sauces/les_sauces.html">Sauces</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section id="section_recette">
+                <article id="article_recette">
+                    <h2 class="h2_recette"> Pâte à crèpes de Mamounette </h2>
+                      <div class='bandeau'>
+                        <div id='regime'>
+                          <img id="image_vegan" src="../image/bandeau/vegan_nb.png" alt="vegan logo" height="60" width=auto >
+                          <img id="image_vege" src="../image/bandeau/vege.png" alt="vege logo" height="60" width=auto>
+                        </div>
+                        <div id='couverts'>
+                          <img id="image_couverts" src="../image/bandeau/couverts.png" alt="couverts logo" height="60" width=auto>
+                          <p> Pour 15-20 grandes crèpes</p>
+                        </div>
+                        <div id='chrono'>
+                          <img id="image_chrono" src="../image/bandeau/chrono.png" alt="chrono logo" height="60" width=auto>
+                          <p> rapiiiide </br>en moins de 30min c'est plié</br></p>
+                        </div>
+                        <div id='calories'>
+                          <img id="image_calories" src="../image/bandeau/calories.png" alt="calories logo" height="60" width=auto>
+                          <p> - - - </p>
+                        </div>
+                      </div>
+                    <div id="recette">
+                    <div id="liste_ingredients">
+                        <h3 class="h3_recette">Les ingrédients </h3>
+                          <form method="post" class="ingredients">
+                            <p>Tu peux cocher au fur et à mesure pour pas être perdu.e ! :</p>
+                            <input type="checkbox" name="ingredients" id="farine" /> <label
+                            for="farine" id="id_farine">300 g de farine (T45 dans l'idéal)</label><br/>
+                            <input type="checkbox" name="ingredients" id="sucre" /> <label
+                            for="sucre" id="id_sucre">40 g de sucre en poudre</label><br />
+                            <input type="checkbox" name="ingredients" id="sucre_v" /> <label
+                            for="sucre_v" id="id_sucre_v">1 sachet de sucre vanillé</label><br />
+                            <input type="checkbox" name="ingredients" id="oeufs" />
+                            <label for="oeufs" id="id_oeufs">4 oeufs</label><br />
+                            <input type="checkbox" name="ingredients" id="lait" />
+                            <label for="lait" id="id_lait">25 cl de lait</label><br />
+                            <input type="checkbox" name="ingredients" id="bière" />
+                            <label for="bière" id="id_bière">25 cl de bière</label><br />
+                            <input type="checkbox" name="ingredients" id="beurre" />
+                            <label for="beurre" id="id_beurre">60 g de beurre (salé ;) )</label><br />
+                            <input type="checkbox" name="ingredients" id="sel" />
+                            <label for="sel" id="id_sel">1/2 cuillère à café de sel</label><br />
+                            <input type="checkbox" name="ingredients" id="rhum" />
+                            <label for="rhum" id="id_rhum">1 cuillère à soupe de rhum</label><br />
+                          </form>
+                        </div>
+                        <div id="liste_etapes">
+                          <h3 class="h3_recette">Let's do it ! </h3>
+                          <h4 class="h4_recette"> La preparation</h4>
+                          <ul class="preparation">
+                            <li> Faire fondre les beurre au micro-onde avec un peu de lait. Laisser tièdir.</li>
+                            <li> Dans un saladier, verser la farine, le sucre, le sucre vanillé, les oeufs, le sel.</li>
+                            <li> Puis, progressivement, ajouter la bière en mélangeant avec un fouet. Ajouter le beurre (certain l'ajoutent à la toute fin aussi) Ajouter le lait jusqu'à consistance souhaitée: la pâte doit être lisse et sans grumeau </li>
+                            <li> Ajouter le Rhum</li>
+                            <li> Mettre la pâte au frigo. Avant de faire les crèpes, rajouter du lait si necessaire : la pâte à tendance à s'epaissir mais attention à ne pas trop en mettre sinon elle fera des trous !</li>
+                          </ul>
+                        </div>
+                      </div>
+                </article>
+                <aside id="aside_pates">
+                </aside>
+            </section>
+          <footer> <p>Poulie Girod, <em id="footer">végée since September 2019</em></p></footer>
+
+        <script type="text/javascript" src = "../ingredients.js">
+        </script>
+    </body>
+</html>

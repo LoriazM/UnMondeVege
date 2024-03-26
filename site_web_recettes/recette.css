@@ -1,0 +1,373 @@
+/* -----  CODE CSS SITE RECETTES, Coline Girod, 10/11/2021    ----- */
+
+
+/*  PARAMETRES GENERAUX VALABLE POUR TOUTES (?) LES PAGES */
+
+/*  design de base */
+body
+{
+	background-image: url("./image/bg_7.jpg") ;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#main_wrapper
+{
+	background-color: rgba(250,250,230,0.9);
+	width: 80%;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius: 5px/5px;
+  word-wrap: break-word;
+}
+
+
+
+/*  header avec nom site et nav */
+
+header
+{
+	display: flex;
+}
+
+nav ul
+{
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top : 25px;
+	justify-content: space-around;
+}
+
+nav li
+{
+	width: 130px;
+	height: 40px;
+	text-align: center;
+}
+
+nav li:nth-child(3)
+{
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+nav li:nth-child(5)
+{
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+nav a
+{
+	text-decoration: none;
+	font-size: 1.9em;
+  color: #181818;
+  padding-bottom: 3px;
+	font-weight: bold;
+	font-family: 'Amatic SC', cursive;
+}
+
+nav a:hover
+{
+	color: green;
+	font-size: 2.1em;
+	text-decoration: underline green;
+}
+
+
+/*  Footer */
+footer p
+{
+	color : rgb(86,101,115);
+	font-size: 0.93em;
+}
+
+#footer
+{
+	font-style: italic;
+}
+
+/*  Paramètre valables pour la page home et d'autres */
+
+p, .liste_puce , #sauces , .pates, #entrees, .apero, .plats, #desserts
+{
+	margin-left: 12px;
+	margin-right: 12px;
+	font-family: 'Source Sans Pro', sans-serif ;
+	font-weight:300;
+	font-size: 1.1em;
+  text-align: justify;
+}
+
+#section_home , #section_sauces, #section_pates, #section_entrees, #section_apero, #section_plats, #section_desserts
+{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+#article_home , #article_sauces , #article_pates , #article_entrees, #article_apero, #article_plats, #article_desserts
+{
+	flex: 2;
+	margin-right: 20px;
+}
+
+
+#aside_home
+{
+	flex: 1;
+	background-color: #a6aa87;
+	border: 4px grey groove;
+	border-radius: 10px/20px;
+	margin-right: 20px;
+}
+
+
+h1
+{
+	margin-left: 5px;
+	font-family: 'Fleur de Leah', cursive;
+	font-size: 4.3em;
+}
+
+h1 a
+{
+	text-decoration: none;
+    color: #181818;
+}
+
+.h2_home
+{
+	margin-left: 5px;
+	font-family: 'Libre Baskerville';
+	font-size: 1.4em;
+}
+
+
+
+
+
+
+
+/*  PAGE SAUCES PATES  */
+
+
+
+#aside_sauces , #aside_pates, #aside_entrees, #aside_apero, #aside_plats, #aside_desserts
+{
+	flex: 1;
+	margin-right: 20px;
+}
+
+#sauces a , .pates a , #entrees a , .apero a, .plats a, #desserts a
+{
+	text-decoration: none;
+    color: #181818;
+}
+
+#sauces a:hover , .pates a:hover , #entrees a:hover, .apero a:hover , .plats a:hover, #desserts a:hover
+{
+	text-decoration: none;
+    color: rgb(0, 102, 0);
+    font-size: 1.014em;
+}
+
+.h2_sauces , .h2_pates , .h2_entrees, .h2_apero, .h2_plats, .h2_desserts
+{
+	margin-left: 5px;
+	font-family: 'Amatic SC', cursive;
+	font-size: 2.2em;
+}
+
+#image_sauces
+{
+  border-radius: 20px;
+  max-width : 100%;
+  max-height: auto;
+}
+
+#image_pates , #image_entrees, #image_croissant, #image_apero, #image_plats, #image_gratin, #image_desserts
+{
+  border-radius: 20px;
+  max-width : 100%;
+  max-height: auto;
+  margin-top: 60px;
+}
+
+#image_vege 
+{
+	opacity: 0.5;
+}
+
+.pates:nth-of-type(1) , #entrees, #desserts
+{
+	columns: 2;
+	-webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+.ss_h2_pates
+{
+	margin-left: 5px;
+	font-family: 'Amatic SC', cursive;
+	font-size: 1.9em;
+}
+
+.ss_h2_apero, .ss_h2_plats
+{
+	margin-left: 9px;
+	font-family: 'Amatic SC', cursive;
+	font-size: 1.9em;
+}
+
+.h3_apero, .h3_plats
+{
+	margin-left: 12px;
+	font-size: 1.15em;
+}
+
+#text /* dans entrees */
+{
+	font-family: 'Amatic SC', cursive;
+	font-size: 1.1em;
+}
+
+#apero_type, #plats_type
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+.plats_ss_type:nth-of-type(2)
+{
+	width: 360px;
+}
+
+
+
+@media screen and (max-width: 1024px)
+{
+  nav ul, #section_home , #section_sauces, #section_pates, #section_entrees, #section_apero, #section_plats, #section_desserts
+	{
+		flex-direction: column;
+	}
+
+
+	h1
+	{
+		margin-left: 5px;
+		font-family: 'Fleur de Leah', cursive;
+		font-size: 4.7em;
+	}
+
+	header
+	{justify-content: space-between}
+
+	nav a
+	{
+		font-size: 2.5em;
+	}
+
+	nav li
+	{
+		width: 100%;
+	}
+
+		nav li:nth-child(5)
+	{
+		width: 250px;
+	}
+
+		nav a:hover
+	{
+		font-size: 2.6em;
+	}
+
+	#aside_home
+	{
+		margin-left: auto;
+		margin-right: auto;
+		width: 95%;
+		margin-top: 10px;
+	}
+
+	#aside_sauces , #aside_pates, #aside_entrees, #aside_apero, #aside_plats, #aside_desserts
+	{
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	#image_sauces, #image_pates , #image_entrees, #image_croissant, #image_apero, #image_plats, #image_gratin, #image_desserts
+ 	{
+ 		margin-top: 0px;
+	  border-radius: 20px;
+	  max-width : 300px;
+	  max-height: auto;
+	  margin-left: 10px;
+	}
+
+
+
+	.plats_ss_type li
+	{
+		text-align: left;
+	}
+
+	.plats_ss_type:nth-of-type(1),
+	{
+		flex: 1;
+	}
+
+	.plats_ss_type:nth-of-type(2),
+	{
+		flex: 1;
+	}
+
+	.ss_h2_plats
+	{
+		text-align: center;
+	}
+
+
+
+	.h2_sauces , .h2_pates , .h2_entrees, .h2_apero, .h2_plats, .h2_desserts
+{
+	margin-left: 5px;
+	font-family: 'Amatic SC', cursive;
+	font-size: 3.2em;
+	line-height: 0.5em;
+}
+
+.ss_h2_plats, .ss_h2_apero, .ss_h2_pates
+{
+	margin-left: 5px;
+	font-family: 'Amatic SC', cursive;
+	font-size: 3.0em;
+	line-height: 0.5em;
+}
+
+.ss_h2_plats
+{
+	line-height: 0.8em;
+}
+
+.h3_apero, .h3_plats
+{
+	margin-left: 5px;
+	font-family: 'Amatic SC', cursive;
+	font-size: 2.6em;
+	line-height: 0.4em;
+}
+
+.apero_ss_type ul, .plats_ss_type ul, #sauces, .pates, #entrees, #desserts
+{
+	margin-left: 2px;
+	font-size: 2.2em;
+}
+
+#entrees li{
+  text-align: left;
+}
+
+}

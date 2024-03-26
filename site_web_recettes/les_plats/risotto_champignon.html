@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="../style_recettes.css" />
+        <title>Riz pilaf</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&ampdisplay=swap">
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <div id = "main_wrapper">
+            <header>
+                <h1><a href="../index.html">Un monde végé </a></h1>
+                <nav>
+                    <ul>
+                        <li> <a href="../apero/apero.html">Apéro !</a></li>
+                        <li> <a href="../les_entrees/les_entrees.html">Entrées</a></li>
+                        <li> <a href="les_plats.html">Plats</a></li>
+                        <li> <a href="../les_desserts/les_desserts.html">Desserts</a></li>
+                        <li> <a href="../les_pates/les_pates.html">Pâtes & Patisseries</a></li>
+                        <li> <a href="../les_sauces/les_sauces.html">Sauces</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section id="section_recette">
+                <article id="article_recette">
+                    <h2 class="h2_recette"> Risotto aux champignons</h2>
+                      <div class='bandeau'>
+                        <div id='regime'>
+                          <img id="image_vegan" src="../image/bandeau/vegan.png" alt="vegan logo" height="60" width=auto >
+                          <img id="image_vege" src="../image/bandeau/vege_nb.png" alt="vege logo" height="60" width=auto>
+                        </div>
+                        <div id='couverts'>
+                          <img id="image_couverts" src="../image/bandeau/couverts.png" alt="couverts logo" height="60" width=auto>
+                          <p> 4 personnes</p>
+                        </div>
+                        <div id='chrono'>
+                          <img id="image_chrono" src="../image/bandeau/chrono.png" alt="chrono logo" height="60" width=auto>
+                          <p> Environ 40 min </p>
+                        </div>
+                        <div id='calories'>
+                          <img id="image_calories" src="../image/bandeau/calories.png" alt="calories logo" height="60" width=auto>
+                          <p> - - - </p>
+                        </div>
+                      </div>
+                    <div id="recette">
+                    <div id="liste_ingredients">
+                        <h3 class="h3_recette">Les ingrédients </h3>
+                          <form method="post" class="ingredients">
+                            <p>Tu peux cocher au fur et à mesure pour pas être perdu.e ! :</p>
+                            <input type="checkbox" name="ingredients" id="riz" /> <label
+                            for="riz" id="id_riz"> 400g de riz </label><br/>
+                            <input type="checkbox" name="ingredients" id="oignon" /> <label
+                            for="oignon" id="id_oignon"> 1 oignon </label><br/>
+                            <input type="checkbox" name="ingredients" id="eau" /> <label
+                            for="eau" id="id_eau"> des champingons de paris OU des champi stylés sec (à rehydrater)  </label><br/>
+                            <input type="checkbox" name="ingredients" id="champi" /> <label
+                            for="champi" id="id_champi"> 1.5 litres de bouillon</label><br />
+                            <input type="checkbox" name="ingredients" id="ail" /> <label
+                            for="ail" id="id_ail"> facultatif (moi j'aime pas) : un petit verre de vin blanc </label><br/>
+                            <input type="checkbox" name="ingredients" id="creme" /> <label
+                            for="creme" id="id_creme"> de la crème végétale et du Parmesan vegan </label><br/>
+                            </form>
+                        </div>
+                        <div id="liste_etapes">
+                          <h3 class="h3_recette">Let's do it ! </h3>
+                          <h4 class="h4_recette"> La preparation</h4>
+                          <ul class="preparation">
+                            <li> émincer les oignon et couper les champi en lamelle. (Faire rehydrater les champi sec ET GARDER L'EAU pour mettre en base de bouillon) </li>
+                            <li> Faire revenir les oignon puis les champi dans une poele avec de la margarine (c'est mieux que l'huile pour le risoto) </li>
+                            <li> Faire boullir 1,5 L d'eau dans une casserole avec 2 ou 3 cube MAGIC (mettre l'eau de rehydratation des champi secs) </li>
+                            <li> Ajouter le riz dans la poele et le laisser un peu être saisi en remuant (il va devenir un peu translucide)</li>
+                            <li> (C'est ici qu'il faut ajouter le vin blanc pour deglacer) </li>
+                            <li> Mettre à feu doux/moyen et arroser d'une premiere grosse louche de bouillon, bien remuer </li>
+                            <li> Le laisser un peu tranquille puis reitérer quand il a bien bu et ce jusqu'à ce que le riz soit cuit à ta convenance ! </li>
+                            <li> Ajouter ensuite un peu de crème, remuer, ajouter la moitier du parmesan, remuer, sortir du feu, ajouter le reste du parmesan remuer et c'est prêt ! </li>
+                            <li> Pour pimper, si on est riche on peut ajouer de l'huile de truffe dans l'assiète</li>
+                          </ul>
+                        </div>
+                      </div>
+                </article>
+                <aside id="aside_pates">
+                </aside>
+            </section>
+          <footer> <p>Poulie Girod, <em id="footer">végée since September 2019</em></p></footer>
+
+        <script type="text/javascript" src = "../ingredients.js">
+        </script>
+    </body>
+</html>

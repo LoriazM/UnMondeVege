@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="../style_recettes.css" />
+        <title>Brownies vegan</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&ampdisplay=swap">
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <div id = "main_wrapper">
+            <header>
+                <h1><a href="../index.html">Un monde végé </a></h1>
+                <nav>
+                    <ul>
+                        <li> <a href="../apero/apero.html">Apéro !</a></li>
+                        <li> <a href="../les_entrees/les_entrees.html">Entrées</a></li>
+                        <li> <a href="../les_plats/les_plats.html">Plats</a></li>
+                        <li> <a href="les_desserts.html">Desserts</a></li>
+                        <li> <a href="../les_pates/les_pates.html">Pâtes & Patisseries</a></li>
+                        <li> <a href="../les_sauces/les_sauces.html">Sauces</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section id="section_recette">
+                <article id="article_recette">
+                    <h2 class="h2_recette"> Brownies vegan (test recette)</h2>
+                      <div class='bandeau'>
+                        <div id='regime'>
+                          <a href="brownies_vegan.html"><img id="image_vegan" src="../image/bandeau/vegan.png" alt="vegan logo" height="60" width=auto ></a>
+                          <a href="brownies.html"><img id="image_vege" src="../image/bandeau/vege_nb.png" alt="vege logo" height="60" width=auto></a>
+                        </div>
+                        <div id='couverts'>
+                          <img id="image_couverts" src="../image/bandeau/couverts.png" alt="couverts logo" height="60" width=auto>
+                          <p> Pour 6 personnes</p>
+                        </div>
+                        <div id='chrono'>
+                          <img id="image_chrono" src="../image/bandeau/chrono.png" alt="chrono logo" height="60" width=auto>
+                          <p> Environ 35min </br>(dont 10 de préparation et</br> 15min de cuisson !)</p>
+                        </div>
+                        <div id='calories'>
+                          <img id="image_calories" src="../image/bandeau/calories.png" alt="calories logo" height="60" width=auto>
+                          <p> We don't care</p>
+                        </div>
+                      </div>
+                    <div id="recette">
+                    <div id="liste_ingredients">
+                        <h3 class="h3_recette">Les ingrédients </h3>
+                          <form method="post" class="ingredients">
+                            <p>Tu peux cocher au fur et à mesure pour pas être perdu.e ! :</p>
+                            <input type="checkbox" name="ingredients" id="chocolat" /> <label
+                            for="chocolat" id="id_chocolat">200 g de chocolat noir pâtissier</label><br/>
+                            <input type="checkbox" name="ingredients" id="margarine" />
+                            <label for="margarine" id="id_margarine">60 g de margarine végétale</label><br />
+                            <input type="checkbox" name="ingredients" id="farine" />
+                            <label for="farine" id="id_farine">60 g de farine</label><br />
+                            <input type="checkbox" name="ingredients" id="sucre" />
+                            <label for="sucre" id="id_sucre">90 g de sucre en poudre (ou moins)</label><br />
+                            <input type="checkbox" name="ingredients" id="sucre_v" />
+                            <label for="sucre_v" id="id_sucre_v">1 sachet de sucre vanillé</label><br />
+                            <input type="checkbox" name="ingredients" id="sel" />
+                            <label for="sel" id="id_sel">2 pincées de sel</label><br />
+                            <input type="checkbox" name="ingredients" id="lait_veg" />
+                            <label for="lait_veg" id="id_lait_veg">180ml de lait végétal</label><br />
+                            <input type="checkbox" name="ingredients" id="poudre_amandes" />
+                            <label for="poudre_amandes" id="id_poudre_amandes">70g de poudre d'amandes</label><br />
+                            <input type="checkbox" name="ingredients" id="noix" />
+                            <label for="noix" id="id_noix">optionnel : quelques noix ou amandes écrasés grossièrement</label><br />
+                          </form>
+                        </div>
+                        <div id="liste_etapes">
+                          <h3 class="h3_recette">Let's do it ! </h3>
+                          <h4 class="h4_recette"> La preparation</h4>
+                          <ul class="preparation">
+                            <li> Dans une casserole, faire fondre le chocolat avec le beurre et le lait à feu doux. Mélanger au fouet jusqu'à obtenir un mélange homogène </li>
+                            <li> Pendant ce temps, dans un autre recipient, mélanger le sucre, la poudre d'amandes, la farine et le sel </li>
+                            <li> Incorporer le mélange de chocolat fondu</li>
+                            <li> Optionnel : ajouter les noix ou amandes et mélanger à nouveau </li>
+                            <li> Verser le tout dans un moule (sans papier couisson, c'est assez gras pour pas coller ;) ) et enfourner pour 20-25 minutes. Pour checker la cuisson, planter un couteau, si il y a trop de chocolat qui reste dessus c'est que c'est pas encore cuit. MAIS : le brownie une fois sorti a tendance à durcir donc attention à ne pas sur-cuire quand même</li>
+                          </ul>
+                        </div>
+                      </div>
+                </article>
+                <aside id="aside_desserts">
+                </aside>
+            </section>
+          <footer> <p>Poulie Girod, <em id="footer">végée since September 2019</em></p></footer>
+
+        <script type="text/javascript" src = "../ingredients.js">
+        </script>
+    </body>
+</html>
